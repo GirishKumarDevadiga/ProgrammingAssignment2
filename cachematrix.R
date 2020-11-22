@@ -31,6 +31,8 @@ cacheSolve <- function(x, ...) {
   m
 }
 
+
+# Test Case
 M <- matrix(c(1,2,3,4), 2, 2)
 M1 <- makeCacheMatrix(M)
 cacheSolve(M1)
